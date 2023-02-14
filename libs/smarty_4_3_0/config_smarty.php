@@ -7,9 +7,9 @@ class config_smarty{
 
   public function __construct(){
       $this->ins_smarty = new Smarty();
-      $this->setRuta();
+      $this->setPath();
   }
-  public function setRuta(){
+  public function setPath(){
       $this->ins_smarty->template_dir = "view/templates";
       $this->ins_smarty->compile_dir  = "view/templates_c";
       $this->ins_smarty->cache_dir    = "control/cache";
