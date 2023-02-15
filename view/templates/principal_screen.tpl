@@ -8,19 +8,25 @@
 <style>
 body{
   background-color: black;
+  margin: 0;
 }
 
 .mySlides {
   display:none;
+  border-radius: 4px;
+  opacity: 75%;
 }
 
-ul{
+ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #1F2E1F;
+  background-color: black;
   opacity: 95%;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 li{
@@ -32,7 +38,7 @@ li a{
   color: white;
   font-family: "Century Gothic";
   text-align: center;
-  padding: 16px 75px;
+  padding: 16px 83px;
   text-decoration: none;
 }
 
@@ -42,11 +48,17 @@ li a:hover{
   opacity: 80%;
 }
 
+.active{
+  position:fixed;
+  z-index:1;
+}
+
 .header{
   width:30em;
   height:17em;
   padding-left: 445px;
-  margin-bottom: 15px;
+  margin-bottom: 35px;
+  padding-top: 60px;
 }
 
 .f1{
@@ -87,7 +99,7 @@ table{
 #chivosTxt{
   color: white;
   font-family: "Century Gothic";
-  padding-top:20px;
+  padding-top:60px;
   padding-left: 605px;
   opacity: 85%;
 }
@@ -107,7 +119,7 @@ table{
 
 #footer{
   background-color: #2E5B2D;
-  height: 250px;
+  height: 280px;
   opacity: 50%;
   border-style:solid;
   border-radius: 10px;
@@ -118,7 +130,7 @@ table{
   text-align: center;
   font-family: "Century Gothic";
   font-size: 12px;
-  margin-top: 75px;
+  margin-top: 65px;
   color: #EEEEEE;
 }
 
@@ -139,11 +151,7 @@ a{
 </style>
 </head>
 <body>
-  <div class="header">
-    <img class="" src="graphics/RCH.png" alt="">
-  </div>
-  <p>&nbsp;</p>
-  <ul id="menu">
+  <ul class="active">
     <li><a href="">Música</a></li>
     <li><a href="">Twitter</a></li>
     <li><a href="">Instagram</a></li>
@@ -151,6 +159,10 @@ a{
     <li><a href="">TikTok</a></li>
     <li><a href="">Contacto</a></li>
   </ul>
+  <p>&nbsp;</p>
+  <div class="header">
+    <img class="" src="graphics/RCH.png" alt="">
+  </div>
   <p>&nbsp;</p>
   <h1 id="chivosTxt">Eventos</h1>
   <p>&nbsp;</p>
@@ -186,10 +198,10 @@ a{
   </table>
   <p>&nbsp;</p>
   <div class="w3-content w3-section" style="max-width:500px">
-    <img class="mySlides" src="graphics/envivo/caloncho.jpg" style="width:100%">
-    <img class="mySlides" src="graphics/envivo/envivo.jpg" style="width:100%">
-    <img class="mySlides" src="graphics/envivo/ferreira.jpg" style="width:100%">
-    <img class="mySlides" src="graphics/envivo/vega.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/im1.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/im2.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/im3.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/im4.jpg" style="width:100%">
   </div>
   <script>
     var myIndex = 0;
@@ -210,17 +222,19 @@ a{
       }
 
       x[myIndex-1].style.display = "block";
-      setTimeout(carousel, 2000); // Change image every 2 seconds
+      setTimeout(carousel, 3000); // Change image every 2 seconds
   }
   </script>
 <footer id="footer">
   <p>&nbsp;</p>
+  <hr>
   <div class="frase">
     <p>Qué criaturas tan decentes los Ratones Coloraos....</p>
   </div>
+  <hr>
   <div class="author">
-    <p>Enoc Sibaja Carrion© - Software Developer</p>
-    <p>info@escarrion.com</p>
+    <p>Enoc Sibaja Carrion&nbsp;©</p>
+    <p><a href="mailto:info@escarrion.com:">info@escarrion.com</a></p>
     <p>2023</p>
   </div>
 </footer>
