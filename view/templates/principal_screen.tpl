@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Ratones Coloraos!</title>
+  <link rel="icon" type="image/png" href="graphics\RCHEADERB.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-15 08:54:50
+/* Smarty version 4.3.0, created on 2023-02-15 09:12:18
   from 'C:\xampp\htdocs\RatonesColoraos\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ec8fcab4af86_31185621',
+  'unifunc' => 'content_63ec93e2c2a053_87225694',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '201e082e24da46c3648012625ccb9f2cda62d8b5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\RatonesColoraos\\view\\templates\\principal_screen.tpl',
-      1 => 1676447689,
+      1 => 1676448737,
       2 => 'file',
     ),
   ),
@@ -20,11 +20,12 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63ec8fcab4af86_31185621 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63ec93e2c2a053_87225694 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
   <title>Ratones Coloraos!</title>
+  <link rel="icon" type="image/png" href="graphics\RCHEADERB.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
