@@ -18,7 +18,7 @@
   </ul>
   <p>&nbsp;</p>
   <div class="header">
-    <img class="" src="graphics/RCH.png" alt="">
+    <img class="" src="graphics/CC.png" alt="">
   </div>
   <p>&nbsp;</p>
   <h1 id="chivosTxt">Eventos</h1>

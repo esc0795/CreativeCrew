@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-16 00:05:29
+/* Smarty version 4.3.0, created on 2023-02-16 00:09:28
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ed6539572db2_93076925',
+  'unifunc' => 'content_63ed662846dba9_33972761',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1676502328,
+      1 => 1676502566,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63ed6539572db2_93076925 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63ed662846dba9_33972761 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -41,7 +41,7 @@ function content_63ed6539572db2_93076925 (Smarty_Internal_Template $_smarty_tpl)
   </ul>
   <p>&nbsp;</p>
   <div class="header">
-    <img class="" src="graphics/RCH.png" alt="">
+    <img class="" src="graphics/CC.png" alt="">
   </div>
   <p>&nbsp;</p>
   <h1 id="chivosTxt">Eventos</h1>
