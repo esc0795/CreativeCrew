@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ratones Coloraos!</title>
+  <title>Creative Crew!</title>
   <link rel="icon" type="image/png" href="graphics\RCHEADERB.png">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
@@ -12,7 +12,7 @@
 </head>
 <body>
   <ul class="active">
-    <li><a href="">Música</a></li>
+    <li><a href="">Creative Crew</a></li>
     <li><a href="">Twitter</a></li>
     <li><a href="">Instagram</a></li>
     <li><a href="">YouTube</a></li>
