@@ -43,14 +43,15 @@ li a:hover{
 }
 
 .active{
+  margin-left: 500px;
   position:fixed;
   z-index:1;
 }
 
 .header{
-  width:30em;
+  width:15em;
   height:17em;
-  padding-left: 445px;
+  padding-left: 40px;
   margin-bottom: 35px;
   padding-top: 60px;
 }
