@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-15 06:12:26
+/* Smarty version 4.3.0, created on 2023-02-15 07:35:48
   from 'C:\xampp\htdocs\RatonesColoraos\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ec69bab2f337_16993626',
+  'unifunc' => 'content_63ec7d44c3ca58_99133814',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '201e082e24da46c3648012625ccb9f2cda62d8b5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\RatonesColoraos\\view\\templates\\principal_screen.tpl',
-      1 => 1676437945,
+      1 => 1676442947,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63ec69bab2f337_16993626 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63ec7d44c3ca58_99133814 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
+  <title>Ratones Coloraos!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {
+body{
   background-color: black;
 }
 
@@ -35,7 +37,7 @@ body {
   display:none;
 }
 
-ul {
+ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -44,76 +46,68 @@ ul {
   opacity: 95%;
 }
 
-li {
+li{
   float: left;
 }
 
-li a {
+li a{
   display: block;
   color: white;
   font-family: "Century Gothic";
   text-align: center;
-  padding: 16px 83px;
+  padding: 16px 75px;
   text-decoration: none;
 }
 
-li a:hover {
+li a:hover{
   background-color: #A52121;
   color: black;
   opacity: 80%;
 }
 
-.fotoPrin {
-  opacity: 95%;
-  height: 250px;
-  margin-top: 35px;
-  border-radius: 50px;
-  margin-left: 5px;
-}
-
-.header {
+.header{
   width:30em;
   height:17em;
-  padding-left: 435px;
+  padding-left: 445px;
   margin-bottom: 15px;
 }
 
-.f1 {
+.f1{
   font-family: "Century Gothic";
   color: white;
   padding-top: 25px;
   padding-left: 350px;
-  width: 60%;
+  width:60%;
   margin-left: 268px;
 }
 
-td {
+td{
   border-collapse: collapse;
   border-radius: 5px;
   opacity: 85%;
   padding-left: 63px;
 }
 
-th {
+th{
   text-align: justify;
   padding-left: 79px;
 }
 
-table {
+table{
   border-collapse: collapse;
   border-radius: 5px;
   opacity: 85%;
   margin-left: 150px;
 }
 
-#tickets {
+#tickets{
   text-decoration: none;
   font-family: "Century Gothic";
   color: white;
   border-style: solid;
 }
 
-#chivosTxt {
+#chivosTxt{
   color: white;
   font-family: "Century Gothic";
   padding-top:20px;
@@ -121,7 +115,7 @@ table {
   opacity: 85%;
 }
 
-.btnTickets {
+.btnTickets{
   background-color: #063E05;
   height: 40px;
   width: 95px;
@@ -129,29 +123,29 @@ table {
   color: white;
 }
 
-.btnTickets:hover {
+.btnTickets:hover{
   background-color: #A52121;
   color: black;
 }
 
-#footer {
+#footer{
   background-color: #2E5B2D;
   height: 250px;
   opacity: 50%;
   border-style:solid;
-  border-radius: 15px;
+  border-radius: 10px;
   margin-top: 35px;
 }
 
-.author {
+.author{
   text-align: center;
   font-family: "Century Gothic";
   font-size: 12px;
-  margin-top: 25px;
+  margin-top: 75px;
   color: #EEEEEE;
 }
 
-.frase {
+.frase{
   text-align: center;
   font-family: "Century Gothic";
   font-size: 20px;
@@ -160,7 +154,7 @@ table {
   background-color: #11230F;
 }
 
-a {
+a{
   text-decoration: none;
   color: white;
 }
@@ -212,57 +206,47 @@ a {
     <td>Abril 15, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
-</table>
-<p>&nbsp;</p>
-<div class="w3-content w3-display-container" style="max-width:70%; margin-left:340px;">
-  <img class="mySlides" src="graphics/envivo/caloncho.jpg" style="width:70%; height: 40em">
-  <img class="mySlides" src="graphics/envivo/envivo.jpg" style="width:70%; height: 40em">
-  <img class="mySlides" src="graphics/envivo/ferreira.jpg" style="width:70%; height: 40em">
-  <img class="mySlides" src="graphics/envivo/vega.jpg" style="width:70%; height: 40em">
-
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)" style="max-width:70%; margin-left:10px;">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)" style="max-width:70%; margin-right: 305px;">&#10095;</button>
-</div>
-<?php echo '<script'; ?>
+  </table>
+  <p>&nbsp;</p>
+  <div class="w3-content w3-section" style="max-width:500px">
+    <img class="mySlides" src="graphics/envivo/caloncho.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/envivo.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/ferreira.jpg" style="width:100%">
+    <img class="mySlides" src="graphics/envivo/vega.jpg" style="width:100%">
+  </div>
+  <?php echo '<script'; ?>
 >
-  var slideIndex = 1;
-  showDivs(slideIndex);
+    var myIndex = 0;
+    carousel();
 
-  function plusDivs(n) {
-    showDivs(slideIndex += n);
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+
+      myIndex++;
+
+      if (myIndex > x.length) {
+        myIndex = 1
+      }
+
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 2000); // Change image every 2 seconds
   }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-
-    if (n > x.length) {
-      slideIndex = 1
-    }
-
-    if (n < 1) {
-      slideIndex = x.length
-    }
-
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-
-    x[slideIndex-1].style.display = "block";
-}
-<?php echo '</script'; ?>
+  <?php echo '</script'; ?>
 >
 <footer id="footer">
-  <div class="">
-    <p>&nbsp;</p>
-  </div>
+  <p>&nbsp;</p>
   <div class="frase">
-    <center><p>Qué criaturas tan decentes los Ratones Coloraos....</p></center>
+    <p>Qué criaturas tan decentes los Ratones Coloraos....</p>
   </div>
   <div class="author">
-    <center><p>Enoc Sibaja Carrion - Software Developer©</p></center>
-    <center><p><a href="mailto:hege@example.com">info@escarrion.com</a></p></center>
-    <center><p>February, 2023</p></center>
+    <p>Enoc Sibaja Carrion© - Software Developer</p>
+    <p>info@escarrion.com</p>
+    <p>2023</p>
   </div>
 </footer>
 </body>
