@@ -36,22 +36,22 @@
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>Jazz Café Escazú</td>
-    <td>Marzo 3, 2023 - 8pm</td>
+    <td>Jazz Café Escazú - San José, CR</td>
+    <td>Marzo 03, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>El Observatorio</td>
+    <td>El Observatorio - San José, CR</td>
     <td>Marzo 15, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>Parque Viva</td>
-    <td>Marzo 2, 2023 - 8pm</td>
+    <td>Parque Viva - Alajuela, CR</td>
+    <td>Marzo 20, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>Ferro Chill</td>
+    <td>Ferro Chill - Alajuela, CR</td>
     <td>Abril 15, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-15 09:14:25
+/* Smarty version 4.3.0, created on 2023-02-15 09:19:27
   from 'C:\xampp\htdocs\RatonesColoraos\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ec9461d37745_90234996',
+  'unifunc' => 'content_63ec958fb30ac4_91291012',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '201e082e24da46c3648012625ccb9f2cda62d8b5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\RatonesColoraos\\view\\templates\\principal_screen.tpl',
-      1 => 1676448864,
+      1 => 1676449165,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63ec9461d37745_90234996 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63ec958fb30ac4_91291012 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -59,22 +59,22 @@ function content_63ec9461d37745_90234996 (Smarty_Internal_Template $_smarty_tpl)
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td>Jazz Café Escazú</td>
-    <td>Marzo 3, 2023 - 8pm</td>
+    <td>Jazz Café Escazú - San José, CR</td>
+    <td>Marzo 03, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>El Observatorio</td>
+    <td>El Observatorio - San José, CR</td>
     <td>Marzo 15, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>Parque Viva</td>
-    <td>Marzo 2, 2023 - 8pm</td>
+    <td>Parque Viva - Alajuela, CR</td>
+    <td>Marzo 20, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
   <tr>
-    <td>Ferro Chill</td>
+    <td>Ferro Chill - Alajuela, CR</td>
     <td>Abril 15, 2023 - 8pm</td>
     <td><button class="btnTickets" type="button" name="button">Comprar</button></td>
   </tr>
