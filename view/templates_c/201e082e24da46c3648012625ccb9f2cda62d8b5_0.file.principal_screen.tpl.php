@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-15 09:12:18
+/* Smarty version 4.3.0, created on 2023-02-15 09:14:25
   from 'C:\xampp\htdocs\RatonesColoraos\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63ec93e2c2a053_87225694',
+  'unifunc' => 'content_63ec9461d37745_90234996',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '201e082e24da46c3648012625ccb9f2cda62d8b5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\RatonesColoraos\\view\\templates\\principal_screen.tpl',
-      1 => 1676448737,
+      1 => 1676448864,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63ec93e2c2a053_87225694 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63ec9461d37745_90234996 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -90,7 +90,7 @@ function content_63ec93e2c2a053_87225694 (Smarty_Internal_Template $_smarty_tpl)
   <p>&nbsp;</p>
   <hr>
   <div class="frase">
-    <p>Qué criaturas tan decentes los Ratones Coloraos....</p>
+    <p>Qué criaturas tan decentes los Ratones Coloraos...😎</p>
   </div>
   <hr>
   <div class="author">

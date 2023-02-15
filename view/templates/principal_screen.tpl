@@ -67,7 +67,7 @@
   <p>&nbsp;</p>
   <hr>
   <div class="frase">
-    <p>Qué criaturas tan decentes los Ratones Coloraos....</p>
+    <p>Qué criaturas tan decentes los Ratones Coloraos...😎</p>
   </div>
   <hr>
   <div class="author">
