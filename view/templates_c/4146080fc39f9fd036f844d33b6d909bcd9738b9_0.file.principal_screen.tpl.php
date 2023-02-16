@@ -7,16 +7,16 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
   'unifunc' => 'content_63edf96f283139_09071859',
   'has_nocache_code' => false,
-  'file_dependency' => 
+  'file_dependency' =>
   array (
-    '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
+    '4146080fc39f9fd036f844d33b6d909bcd9738b9' =>
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
       1 => 1676540269,
       2 => 'file',
     ),
   ),
-  'includes' => 
+  'includes' =>
   array (
   ),
 ),false)) {
