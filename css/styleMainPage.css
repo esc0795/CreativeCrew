@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200&display=swap');
 
 body{
   background-color: #101728;
@@ -8,19 +9,18 @@ body{
 .mySlides {
   display:none;
   border-radius: 4px;
-  opacity: 95%;
-  margin-left: 10px;
-  width: 90px;
+  opacity: 50%;
+  margin-left: 100px;
+  margin-top: -10px;
+  width: 70px;
+  height: 50px;
 }
 
 ul {
-  border-left: solid;
-  border-color: white;
-  border-width: 0.5px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-left: 254px;
+  margin-left: 257.7px;
   overflow: hidden;
   background-color: black;
   opacity: 95%;
@@ -36,18 +36,23 @@ li{
 li a{
   display: block;
   color: white;
-  font-family: "Century Gothic";
+  font-family: 'Tourney';
   text-align: center;
-  padding: 16px 83px;
+  padding: 20px 125px;
   text-decoration: none;
+  font-size: 25px;
 }
 
 li a:hover{
-  background-color: #A52121;
+  background-color: black;
+  font-family: 'Tourney';
   font-weight: bolder;
   font-size: 16px;
-  color: black;
+  color: white;
   opacity: 80%;
+  font-size: 25px;
+  border-bottom: solid;
+  border-width: 0.5px;
 }
 
 .active{
@@ -56,6 +61,9 @@ li a:hover{
 }
 
 .header{
+  border-style: solid;
+  border-color: white;
+  border-width: 0.5px;
   position:fixed;
   z-index:1;
   padding-left: 0px;
@@ -112,45 +120,91 @@ table{
   color: black;
 }
 
+/* Aqui inicia el footer*/
 #footer{
   background-color: black;
-  height: 280px;
+  height: 370px;
   border-style:solid;
-  margin-top: 35px;
+  margin-top: 150px;
+}
+
+.social{
+  width: 10px;
+  height: 5px;
+}
+
+.sc{
+  margin-left: 625px;
+  margin-top: -100px;
+}
+
+.tt{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -120px;
+  margin-bottom: -115px;
+}
+
+.tw{
+  margin-left: 1220px;
+  margin-right: : 40px;
+  margin-top: -182px;
+}
+
+.yt{
+  margin-left: 925px;
+  margin-top: -142px;
+}
+
+.it{
+  margin-left: 370px;
+  margin-top: -50px;
 }
 
 .author{
   text-align: center;
   font-family: "Century Gothic";
   font-size: 12px;
-  margin-top: 105px;
+  margin-top: 90px;
   color: white;
 }
+/* Aqui termina el footer*/
 
 .gif1{
   margin-left: 395px;
   border-radius: 10px;
-}
-
-#frase{
-  text-align: center;
-  font-family: "Century Gothic";
-  font-size: 20px;
-  margin-top: 1px;
-  margin-left: 253px;
-  color: #EEEEEE;
+  opacity: 60%;
 }
 
 #frase1{
   text-align: center;
   font-family: 'Tourney';
-  font-size: 60px;
+  font-size: 50px;
   margin-top: 1px;
-  margin-left: 258px;
+  margin-left: 370px;
+  color: #3374A0;
+}
+
+#frase2{
+  text-align: left;
+  font-family: 'Tourney';
+  font-size: 24px;
+  margin-top: -180px;
+  margin-left: 50px;
   color: #3374A0;
 }
 
 a{
   text-decoration: none;
   color: white;
+}
+
+.descTxt{
+  text-align: left;
+  font-family: 'Work Sans';
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 50px;
+  color: white;
+  width: 25%;
 }
