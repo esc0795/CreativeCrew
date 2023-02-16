@@ -124,7 +124,9 @@ table{
 #footer{
   background-color: black;
   height: 370px;
-  border-style:solid;
+  border-top:solid;
+  border-color: white;
+  border-width: 0.5px;
   margin-top: 150px;
 }
 
@@ -165,8 +167,9 @@ table{
   text-align: center;
   font-family: "Century Gothic";
   font-size: 12px;
-  margin-top: 90px;
+  margin-top: 80px;
   color: white;
+  opacity: 55%;
 }
 /* Aqui termina el footer*/
 

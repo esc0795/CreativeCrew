@@ -1,30 +1,30 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-16 10:37:51
+/* Smarty version 4.3.0, created on 2023-02-16 10:53:54
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63edf96f283139_09071859',
+  'unifunc' => 'content_63edfd32c9a3e1_03339977',
   'has_nocache_code' => false,
-  'file_dependency' =>
+  'file_dependency' => 
   array (
-    '4146080fc39f9fd036f844d33b6d909bcd9738b9' =>
+    '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1676540269,
+      1 => 1676541233,
       2 => 'file',
     ),
   ),
-  'includes' =>
+  'includes' => 
   array (
   ),
 ),false)) {
-function content_63edf96f283139_09071859 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63edfd32c9a3e1_03339977 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
-  <title>Creative Crew!</title>
+  <title>Tech Crew©</title>
   <link rel="icon" type="image/png" href="graphics/TC.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -81,6 +81,7 @@ function content_63edf96f283139_09071859 (Smarty_Internal_Template $_smarty_tpl)
   <p>&nbsp;</p>
 <footer id="footer">
   <p>&nbsp;</p>
+  <p>&nbsp;</p>
   <div class="social">
     <img class="tt" src="graphics/tiktok.png" alt="" style=" width: 50px; height: 60px;">
     <img class="it" src="graphics/instagram.png" alt="" style=" width: 65px; height: 70px;">
@@ -92,11 +93,10 @@ function content_63edf96f283139_09071859 (Smarty_Internal_Template $_smarty_tpl)
   <p>&nbsp;</p>
   <hr>
   <div class="author">
-    <strong><p>Tech Crew!&nbsp;©</p></strong>
+    <strong><p>Tech Crew&nbsp;©</p></strong>
     <strong><a href="mailto:info@techcrew.com:">info@techcrew.com</a></p></strong><p>
     <strong><p>2023</p></strong>
   </div>
-  <hr>
 </footer>
 <?php echo '<script'; ?>
  src="js/jsMainPage.js"><?php echo '</script'; ?>

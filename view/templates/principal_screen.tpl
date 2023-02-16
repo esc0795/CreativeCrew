@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Creative Crew!</title>
+  <title>Tech Crew©</title>
   <link rel="icon" type="image/png" href="graphics/TC.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,6 +58,7 @@
   <p>&nbsp;</p>
 <footer id="footer">
   <p>&nbsp;</p>
+  <p>&nbsp;</p>
   <div class="social">
     <img class="tt" src="graphics/tiktok.png" alt="" style=" width: 50px; height: 60px;">
     <img class="it" src="graphics/instagram.png" alt="" style=" width: 65px; height: 70px;">
@@ -69,11 +70,10 @@
   <p>&nbsp;</p>
   <hr>
   <div class="author">
-    <strong><p>Tech Crew!&nbsp;©</p></strong>
+    <strong><p>Tech Crew&nbsp;©</p></strong>
     <strong><a href="mailto:info@techcrew.com:">info@techcrew.com</a></p></strong><p>
     <strong><p>2023</p></strong>
   </div>
-  <hr>
 </footer>
 <script src="js/jsMainPage.js"></script>
 </body>
