@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 /* Smarty version 4.3.0, created on 2023-02-16 06:55:14
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
