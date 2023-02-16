@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 4.3.0, created on 2023-02-16 06:55:14
+  from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_63edc542983971_92856430',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
+      1 => 1676526913,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_63edc542983971_92856430 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html>
 <head>
   <title>Creative Crew!</title>
@@ -50,6 +73,10 @@
     <strong><p>2023</p></strong>
   </div>
 </footer>
-<script src="js/jsMainPage.js"></script>
+<?php echo '<script'; ?>
+ src="js/jsMainPage.js"><?php echo '</script'; ?>
+>
 </body>
 </html>
+<?php }
+}
