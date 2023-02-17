@@ -25,7 +25,7 @@
   <p>&nbsp;</p>
     <strong><p id="frase1">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
     <p>&nbsp;</p>
-  <div class="w3-content w3-section" style="max-width:500px; max-height:200px">
+  <div class="w3-content w3-section" style="width:425px; height:200px">
     <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:200%">
     <img class="mySlides" src="https://thumbs.gfycat.com/JauntyScrawnyKitten-size_restricted.gif" alt="" style="width:150%; height:200%">
     <img class="mySlides" src="https://i.pinimg.com/originals/cf/76/61/cf76615202726e828bd1d6d1fbf31fef.gif" alt="" style="width:150%; height:200%">
