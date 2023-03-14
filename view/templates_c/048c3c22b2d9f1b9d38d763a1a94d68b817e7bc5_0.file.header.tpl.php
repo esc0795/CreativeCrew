@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-14 06:56:47
+/* Smarty version 4.3.0, created on 2023-03-14 07:01:10
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64100c9f1f4a03_31652364',
+  'unifunc' => 'content_64100da69da332_31986272',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '048c3c22b2d9f1b9d38d763a1a94d68b817e7bc5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\header.tpl',
-      1 => 1678773403,
+      1 => 1678773666,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64100c9f1f4a03_31652364 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64100da69da332_31986272 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -41,6 +41,8 @@ function content_64100c9f1f4a03_31652364 (Smarty_Internal_Template $_smarty_tpl)
     <li><a href="">Podcast</a></li>
     <li><a href="">Contact</a></li>
   </ul>
+  <br>
+  <br>
   <div class="header">
     <img class="" src="graphics/TC.png" alt="">
   </div>

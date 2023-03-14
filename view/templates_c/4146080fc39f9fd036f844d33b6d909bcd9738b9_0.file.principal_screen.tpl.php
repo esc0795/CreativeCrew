@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-14 06:49:50
+/* Smarty version 4.3.0, created on 2023-03-14 08:31:47
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64100afe414ab0_35657566',
+  'unifunc' => 'content_641022e30c7951_31446037',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1678772987,
+      1 => 1678779104,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64100afe414ab0_35657566 (Smarty_Internal_Template $_smarty_tpl) {
+function content_641022e30c7951_31446037 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -35,29 +35,20 @@ function content_64100afe414ab0_35657566 (Smarty_Internal_Template $_smarty_tpl)
 </style>
 </head>
 <body>
-  <ul class="active">
-    <li><a href="">Tech Crew</a></li>
-    <li><a href="">Podcast</a></li>
-    <li><a href="">Contact</a></li>
-  </ul>
-  <p>&nbsp;</p>
-  <div class="header">
-    <img class="" src="graphics/TC.png" alt="">
-  </div>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
     <strong><p id="frase1">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
     <p>&nbsp;</p>
   <div class="w3-content w3-section" style="width:425px; height:200px">
-    <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:200%">
-    <img class="mySlides" src="https://thumbs.gfycat.com/JauntyScrawnyKitten-size_restricted.gif" alt="" style="width:150%; height:200%">
-    <img class="mySlides" src="https://i.pinimg.com/originals/cf/76/61/cf76615202726e828bd1d6d1fbf31fef.gif" alt="" style="width:150%; height:200%">
-    <img class="mySlides" src="https://s3.amazonaws.com/rtvc-assets-misenal.tv/ms-public/inline-images/2019-Larson-Best-Podcast.gif" alt="" style="width:150%; height:200%">
-    <img class="mySlides" src="https://www.softeck.com.mx/wp-content/uploads/2016/07/5.gif" alt="" style="width:150%; height:200%">
-    <img class="mySlides" src="https://www.macmillaneducation.es/iberia/wp-content/uploads/2021/02/microanimacion_ondas.gif" alt="" style="width:150%; height:200%">
+    <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:230%">
+    <img class="mySlides" src="https://thumbs.gfycat.com/JauntyScrawnyKitten-size_restricted.gif" alt="" style="width:150%; height:230%">
+    <img class="mySlides" src="https://i.pinimg.com/originals/cf/76/61/cf76615202726e828bd1d6d1fbf31fef.gif" alt="" style="width:150%; height:230%">
+    <img class="mySlides" src="https://s3.amazonaws.com/rtvc-assets-misenal.tv/ms-public/inline-images/2019-Larson-Best-Podcast.gif" alt="" style="width:150%; height:230%">
+    <img class="mySlides" src="https://www.softeck.com.mx/wp-content/uploads/2016/07/5.gif" alt="" style="width:150%; height:230%">
+    <img class="mySlides" src="https://www.macmillaneducation.es/iberia/wp-content/uploads/2021/02/microanimacion_ondas.gif" alt="" style="width:150%; height:230%">
   </div>
-  <strong><p id="frase2">&gt;&nbsp;Creative Tech Crew_&nbsp;💡</p></strong>
   <div class="descTxt">
+    <strong><p id="frase2">&gt;&nbsp;Creative Tech Crew_&nbsp;💡</p></strong>
     <hr>
     <p>Tech Crew genera comunidad para evolucionar juntos dentro
       del creciente mundo tecnológico.</p>
@@ -68,11 +59,33 @@ function content_64100afe414ab0_35657566 (Smarty_Internal_Template $_smarty_tpl)
     <p><strong>Tech Crew Desarrollo Web</strong> es el encargado de ejecutar este ecosistema de ideas
     que fueron compartidas por la comunidad en cada episodio del podcast, es por eso que buscamos tener
     una red de contenido que pueda ser aprovechado también a nivel práctico dentro  del desarrollo web.</p>
-    <hr>
     <p></p>
   </div>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
+  <div class="propTxt">
+    <hr>
+    <br>
+    <strong><p id="frase3">&gt;&nbsp;Proponer un tema_</p></strong>
+    <form>
+        <strong><label id="labProp" for="email">Email:</label><br></strong>
+        <br>
+        <input type="email" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
+        <p>&nbsp;</p>
+        <strong><label id="labProp" for="tema">Tema:</label><br></strong>
+        <br>
+        <textarea id="inputTa" name="txtTema" rows="4" cols="50" style="width: 500px"></textarea>
+        <br>
+        <strong><button id="btnProp" type="button" onclick="alert('Informacion Ingresada!')">&gt;&nbsp;Enviar_</button></strong>
+    </form>
+  </div>
+  <div class="video">
+    <hr>
+    <br>
+    <iframe id="video1" width="900" height="550"
+      src="https://www.youtube.com/embed/M3DO5Zfk4NI">
+    </iframe>
+  </div>
 <?php echo '<script'; ?>
  src="js/jsMainPage.js"><?php echo '</script'; ?>
 >

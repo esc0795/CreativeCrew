@@ -11,7 +11,7 @@ body{
   border-radius: 4px;
   opacity: 40%;
   margin-left: 100px;
-  margin-top: -10px;
+  margin-top: 100px;
   width: 70px;
   height: 50px;
 }
@@ -136,31 +136,31 @@ table{
 }
 
 .sc{
-  margin-left: 625px;
-  margin-top: -100px;
+  margin-left: 700px;
+  margin-top: -90px;
 }
 
 .tt{
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: -120px;
+  margin-top: -107px;
   margin-bottom: -115px;
 }
 
 .tw{
-  margin-left: 1220px;
+  margin-left: 1315px;
   margin-right: : 40px;
-  margin-top: -182px;
+  margin-top: -180px;
 }
 
 .yt{
-  margin-left: 925px;
-  margin-top: -142px;
+  margin-left: 1020px;
+  margin-top: -135px;
 }
 
 .it{
-  margin-left: 370px;
-  margin-top: -50px;
+  margin-left: 380px;
+  margin-top: -40px;
 }
 
 .author{
@@ -183,7 +183,7 @@ table{
   text-align: center;
   font-family: 'Tourney';
   font-size: 50px;
-  margin-top: 1px;
+  margin-top: 15px;
   margin-left: 370px;
   color: #3374A0;
 }
@@ -192,9 +192,71 @@ table{
   text-align: left;
   font-family: 'Tourney';
   font-size: 24px;
+  margin-top: -250px;
+  margin-left: 40px;
+  color: #3374A0;
+}
+
+#frase3{
+  text-align: center;
+  font-family: 'Tourney';
+  font-size: 50px;
+  margin-top: 15px;
+  margin-left: 415px;
+  color: #3374A0;
+}
+
+#labProp{
+  text-align: left;
+  font-family: 'Tourney';
+  font-size: 24px;
   margin-top: -180px;
   margin-left: 50px;
   color: #3374A0;
+}
+
+#inputEm{
+  margin-top: -180px;
+  margin-left: 400px;
+  background-color: #3374A0;
+  opacity: 30%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#inputTa{
+  margin-top: -10px;
+  margin-left: 400px;
+  background-color: #3374A0;
+  opacity: 30%;
+  color: white;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#btnProp{
+  text-align: center;
+  font-family: 'Tourney';
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+
+.video{
+  border-style: none;
+  margin-left: 350px;
+  margin-top: 150px;
+}
+
+.propTxt{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 5px;
+  width: 75%;
 }
 
 a{
@@ -206,7 +268,7 @@ a{
   text-align: left;
   font-family: 'Work Sans';
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: -150px;
   margin-left: 50px;
   color: white;
   width: 25%;

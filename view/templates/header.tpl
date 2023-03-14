@@ -18,6 +18,8 @@
     <li><a href="">Podcast</a></li>
     <li><a href="">Contact</a></li>
   </ul>
+  <br>
+  <br>
   <div class="header">
     <img class="" src="graphics/TC.png" alt="">
   </div>
