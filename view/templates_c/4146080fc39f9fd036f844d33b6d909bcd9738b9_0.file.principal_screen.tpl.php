@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-02-17 21:23:10
+/* Smarty version 4.3.0, created on 2023-03-14 06:49:50
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_63efe22e8a4205_65000467',
+  'unifunc' => 'content_64100afe414ab0_35657566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1676665389,
+      1 => 1678772987,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63efe22e8a4205_65000467 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64100afe414ab0_35657566 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -61,14 +61,8 @@ function content_63efe22e8a4205_65000467 (Smarty_Internal_Template $_smarty_tpl)
     <hr>
     <p>Tech Crew genera comunidad para evolucionar juntos dentro
       del creciente mundo tecnológico.</p>
-    <p>Este proyecto combina dos disciplinas que pueden ser el complemento
-      perfecto para impulsar el conocimiento y pasión desde lo práctico/teórico de cada
-      una de ellas, creando opiniones desde diferentes ramas relacionadas al
-      desarrollo web, siendo el objetivo final del podcast, generar conversación sobre
-      experiencias vividas por profesionales o entusiastas dentro del día a día
-      laboral.</p>
     <p><strong>Tech Crew Podcast</strong> es el encargado de orquestar este ecosistema de ideas
-    que surgieron desde escenarios cotidianos con los que podemos sentirnos identificados,pero
+    que surgieron desde escenarios cotidianos con los que podemos sentirnos identificados, pero
     este gran ecosistema pretende crear un canal de contenido lleno de soluciones para los
     entuciastas que conforman esta comunidad de creativos.</p>
     <p><strong>Tech Crew Desarrollo Web</strong> es el encargado de ejecutar este ecosistema de ideas
@@ -79,25 +73,6 @@ function content_63efe22e8a4205_65000467 (Smarty_Internal_Template $_smarty_tpl)
   </div>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-<footer id="footer">
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <div class="social">
-    <img class="tt" src="graphics/tiktok.png" alt="" style=" width: 50px; height: 60px;">
-    <img class="it" src="graphics/instagram.png" alt="" style=" width: 65px; height: 70px;">
-    <img class="sc" src="graphics/soundcloud.png" alt="" style=" width: 100px; height: 60px;">
-    <img class="yt" src="graphics/youtube.png" alt="" style=" width: 100px; height: 100px;">
-    <img class="tw" src="graphics/twitter.png" alt="" style=" width: 60px; height: 75px;">
-  </div>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <hr>
-  <div class="author">
-    <strong><p>Tech Crew&nbsp;©</p></strong>
-    <strong><a href="mailto:info@techcrew.com:">info@techcrew.com</a></p></strong><p>
-    <strong><p>2023</p></strong>
-  </div>
-</footer>
 <?php echo '<script'; ?>
  src="js/jsMainPage.js"><?php echo '</script'; ?>
 >
