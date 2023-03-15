@@ -16,6 +16,14 @@ class control{
       $this->obj_creativeCrew->setDisplay("principal_screen.tpl");
     }
 
+    public function displayFooter() {
+      $this->obj_creativeCrew->setDisplay("footer.tpl");
+    }
+
+    public function displayHeader() {
+      $this->obj_creativeCrew->setDisplay("header.tpl");
+    }
+
     public function gestor_solicitudes(){}
     public function validar_inactividad(){}
 }

@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 4.3.0, created on 2023-03-14 08:40:52
+  from 'C:\xampp\htdocs\CreativeCrew\view\templates\footer.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '4.3.0',
+  'unifunc' => 'content_64102504e60399_49109813',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '111a668d3dbe3472d81a8b4c1a661f35fef30fec' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\footer.tpl',
+      1 => 1678779649,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_64102504e60399_49109813 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <html>
 <head>
   <title>Tech Crew©</title>
@@ -31,6 +54,10 @@
     <strong><p>2023</p></strong>
   </div>
 </footer>
-<script src="js/jsMainPage.js"></script>
+<?php echo '<script'; ?>
+ src="js/jsMainPage.js"><?php echo '</script'; ?>
+>
 </body>
 </html>
+<?php }
+}

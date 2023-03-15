@@ -9,9 +9,9 @@ body{
 .mySlides {
   display:none;
   border-radius: 4px;
-  opacity: 40%;
+  opacity: 70%;
   margin-left: 100px;
-  margin-top: -10px;
+  margin-top: 30px;
   width: 70px;
   height: 50px;
 }
@@ -23,7 +23,6 @@ ul {
   margin-left: 257.7px;
   overflow: hidden;
   background-color: black;
-  opacity: 95%;
   position: fixed;
   top: 0;
   width: 100%;
@@ -49,7 +48,7 @@ li a:hover{
   font-weight: bolder;
   font-size: 16px;
   color: white;
-  opacity: 80%;
+  opacity: 90%;
   font-size: 25px;
   border-bottom: solid;
   border-width: 0.5px;
@@ -136,31 +135,31 @@ table{
 }
 
 .sc{
-  margin-left: 625px;
-  margin-top: -100px;
+  margin-left: 700px;
+  margin-top: -90px;
 }
 
 .tt{
   margin-left: 100px;
   margin-right: 100px;
-  margin-top: -120px;
+  margin-top: -107px;
   margin-bottom: -115px;
 }
 
 .tw{
-  margin-left: 1220px;
+  margin-left: 1320px;
   margin-right: : 40px;
-  margin-top: -182px;
+  margin-top: -180px;
 }
 
 .yt{
-  margin-left: 925px;
-  margin-top: -142px;
+  margin-left: 1020px;
+  margin-top: -135px;
 }
 
 .it{
-  margin-left: 370px;
-  margin-top: -50px;
+  margin-left: 380px;
+  margin-top: -40px;
 }
 
 .author{
@@ -180,11 +179,11 @@ table{
 }
 
 #frase1{
-  text-align: center;
+  text-align: left;
   font-family: 'Tourney';
   font-size: 50px;
-  margin-top: 1px;
-  margin-left: 370px;
+  margin-top: 15px;
+  margin-left: 360px;
   color: #3374A0;
 }
 
@@ -192,9 +191,77 @@ table{
   text-align: left;
   font-family: 'Tourney';
   font-size: 24px;
+  margin-top: -250px;
+  margin-left: 40px;
+  color: #3374A0;
+}
+
+#frase3{
+  text-align: center;
+  font-family: 'Tourney';
+  font-size: 50px;
+  margin-top: 15px;
+  margin-left: 350px;
+  color: #3374A0;
+}
+
+#labProp{
+  text-align: left;
+  font-family: 'Tourney';
+  font-size: 24px;
   margin-top: -180px;
   margin-left: 50px;
   color: #3374A0;
+}
+
+#inputEm{
+  margin-top: -180px;
+  margin-left: 400px;
+  background-color: #FFFFFF;
+  opacity: 45%;
+  border-style: none;
+  color: black;
+  border-radius: 5px;
+}
+
+#inputTa{
+  margin-top: -10px;
+  margin-left: 400px;
+  background-color: #FFFFFF;
+  color: black;
+  opacity: 45%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#btnProp{
+  text-align: center;
+  font-family: 'Tourney';
+  margin-top: 50px;
+  margin-left: 400px;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
+}
+
+.video{
+  border-style: none;
+  margin-left: 350px;
+  margin-top: 150px;
+  opacity: 85%;
+}
+
+.propTxt{
+  text-align: center;
+  font-size: 15px;
+  padding-top: 25px;
+  margin-top: 50px;
+  margin-left: -10px;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
 
 a{
@@ -206,8 +273,35 @@ a{
   text-align: left;
   font-family: 'Work Sans';
   font-size: 15px;
-  margin-top: 10px;
+  margin-top: -150px;
   margin-left: 50px;
   color: white;
   width: 25%;
+}
+
+.maquina-escribir{
+  font-size: 48px;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: .15em;
+  animation: escribir 2s steps(40, end), blink-caret .75s step-end infinite;
+}
+
+#titulo-pagina {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: .15em;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+@keyframes escribir{
+  from {width:0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent;}
+  50% { border-color: orange}
 }
