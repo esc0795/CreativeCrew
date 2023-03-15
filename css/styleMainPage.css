@@ -307,7 +307,7 @@ a{
 }
 
 #ep1{
-  margin-left: 350px;
+  margin-left: 490px;
   opacity: 75%;
   border-radius: 10px;
 }
@@ -343,4 +343,64 @@ a{
   font-family: 'Tourney';
   font-size: 30px;
   color: #3374A0;
+}
+
+/*CONTACT PAGE STYLES*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #101728;
+  padding: 20px;
+  width: 550px;
+  margin-left: 415px;
+  font-family: 'Tourney';
+  font-size: 20px;
+  color: white;
+  opacity: 75%;
+}
+
+#btnEnvCon{
+  text-align: center;
+  font-family: 'Tourney';
+  margin-top: 50px;
+  margin-left: 177px;
+  height: 50px;
+  width: 150px;
+  background-color: black;
+  color: white;
 }

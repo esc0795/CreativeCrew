@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 08:47:41
+/* Smarty version 4.3.0, created on 2023-03-15 09:17:39
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6411781d9c2991_06981104',
+  'unifunc' => 'content_64117f230824b0_21796613',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1678866460,
+      1 => 1678868258,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6411781d9c2991_06981104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64117f230824b0_21796613 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +37,7 @@ function content_6411781d9c2991_06981104 (Smarty_Internal_Template $_smarty_tpl)
 <body>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo web and Tech Podcast_</p></strong>
+    <strong><p style="width:960px" id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo web and Tech Podcast_</p></strong>
     <p>&nbsp;</p>
   <div class="w3-content w3-section" style="width:425px; height:200px">
     <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:230%">
@@ -84,7 +84,7 @@ function content_6411781d9c2991_06981104 (Smarty_Internal_Template $_smarty_tpl)
   <div class="video">
     <hr>
     <br>
-    <strong><p style="margin-left:100px" id="frase1" class="maquina-escribir">&gt;&nbsp;Comunidad_</p></strong>
+    <strong><p style="margin-left:100px; width:400px" id="frase1" class="maquina-escribir">&gt;&nbsp;Comunidad_</p></strong>
     <br>
     <iframe id="video1" width="850" height="550"
       src="https://www.youtube.com/embed/M3DO5Zfk4NI">

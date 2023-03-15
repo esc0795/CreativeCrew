@@ -14,9 +14,9 @@
 <body>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-  <strong><p id="frase1" style="margin-left: 450px" class="maquina-escribir" style="width:650px; margin-left:450px">&gt;&nbsp;Ultimo Episodio_</p></strong>
+  <strong><p id="frase1" style="margin-left: 430px; width: 550px" class="maquina-escribir" style="width:650px; margin-left:450px">&gt;&nbsp;Ultimo Episodio_</p></strong>
   <p>&nbsp;</p>
-  <iframe id="ep1" width="750" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1346391478%3Fsecret_token%3Ds-s7Hz0qhOK4V&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+  <iframe id="ep1" width="350" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1346391478%3Fsecret_token%3Ds-s7Hz0qhOK4V&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
   <p>&nbsp;</p>
   <strong><p id="otrEpi">&gt;&nbsp;Otros Episodios_</p></strong>
   <p>&nbsp;</p>

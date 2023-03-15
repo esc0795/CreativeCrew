@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 07:23:31
+/* Smarty version 4.3.0, created on 2023-03-15 09:14:52
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_641164639ff653_08465700',
+  'unifunc' => 'content_64117e7c35d5c8_82585320',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '048c3c22b2d9f1b9d38d763a1a94d68b817e7bc5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\header.tpl',
-      1 => 1678861409,
+      1 => 1678868090,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_641164639ff653_08465700 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64117e7c35d5c8_82585320 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -39,7 +39,7 @@ function content_641164639ff653_08465700 (Smarty_Internal_Template $_smarty_tpl)
   <ul class="active">
     <li><a href="index.php">Tech Crew</a></li>
     <li><a href="podcast.php">Podcast</a></li>
-    <li><a href="">Contact</a></li>
+    <li><a href="contact.php">Contact</a></li>
   </ul>
   <br>
   <br>
