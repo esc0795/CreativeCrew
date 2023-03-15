@@ -8,7 +8,7 @@ $objControl->displayPodcast();
 $objControl->displayFooter();
 
 //Consumir API de Soundcloud
-$track_id = 'hyshopd154a';
+$track_id = 'hyshopd154aDFD';
 $client_id = 'enoc-sibaja';
 $url = 'https://api.soundcloud.com/tracks/'.$track_id.'.json?client_id='.$client_id;
 
