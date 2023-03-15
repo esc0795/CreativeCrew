@@ -18,8 +18,8 @@
   <div class="social">
     <img class="tt" src="graphics/tiktok.png" alt="" style=" width: 50px; height: 60px;">
     <img class="it" src="graphics/instagram.png" alt="" style=" width: 65px; height: 70px;">
-    <img class="sc" src="graphics/soundcloud.png" alt="" style=" width: 100px; height: 60px;">
-    <img class="yt" src="graphics/youtube.png" alt="" style=" width: 100px; height: 90px;">
+    <img class="sc" src="graphics/soundcloud.png" alt="" style=" width: 70px; height: 50px;">
+    <img class="yt" src="graphics/youtube.png" alt="" style=" width: 80px; height: 80px;">
     <img class="tw" src="graphics/twitter.png" alt="" style=" width: 70px; height: 90px;">
   </div>
   <p>&nbsp;</p>

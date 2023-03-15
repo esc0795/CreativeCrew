@@ -14,7 +14,7 @@
 <body>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo web and Tech Podcast_</p></strong>
     <p>&nbsp;</p>
   <div class="w3-content w3-section" style="width:425px; height:200px">
     <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:230%">
@@ -24,6 +24,7 @@
     <img class="mySlides" src="https://www.softeck.com.mx/wp-content/uploads/2016/07/5.gif" alt="" style="width:150%; height:230%">
     <img class="mySlides" src="https://www.macmillaneducation.es/iberia/wp-content/uploads/2021/02/microanimacion_ondas.gif" alt="" style="width:150%; height:230%">
   </div>
+  <p>&nbsp;</p>
   <div class="descTxt">
     <strong><p id="frase2">&gt;&nbsp;Creative Tech Crew_&nbsp;💡</p></strong>
     <hr>
@@ -43,7 +44,7 @@
   <div class="propTxt">
     <hr>
     <br>
-    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
+    <strong><p style="margin-left: 450px" id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
     <br>
     <form>
         <strong><label id="labProp" for="email">Email:</label><br></strong>
@@ -60,7 +61,9 @@
   <div class="video">
     <hr>
     <br>
-    <iframe id="video1" width="900" height="550"
+    <strong><p style="margin-left:100px" id="frase1" class="maquina-escribir">&gt;&nbsp;Comunidad_</p></strong>
+    <br>
+    <iframe id="video1" width="850" height="550"
       src="https://www.youtube.com/embed/M3DO5Zfk4NI">
     </iframe>
   </div>

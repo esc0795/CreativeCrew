@@ -135,7 +135,7 @@ table{
 }
 
 .sc{
-  margin-left: 700px;
+  margin-left: 635px;
   margin-top: -90px;
 }
 
@@ -147,18 +147,18 @@ table{
 }
 
 .tw{
-  margin-left: 1320px;
+  margin-left: 1200px;
   margin-right: : 40px;
   margin-top: -180px;
 }
 
 .yt{
-  margin-left: 1020px;
+  margin-left: 915px;
   margin-top: -135px;
 }
 
 .it{
-  margin-left: 380px;
+  margin-left: 350px;
   margin-top: -40px;
 }
 
@@ -181,7 +181,7 @@ table{
 #frase1{
   text-align: left;
   font-family: 'Tourney';
-  font-size: 50px;
+  font-size: 40px;
   margin-top: 15px;
   margin-left: 360px;
   color: #3374A0;
@@ -190,9 +190,9 @@ table{
 #frase2{
   text-align: left;
   font-family: 'Tourney';
-  font-size: 24px;
+  font-size: 18px;
   margin-top: -250px;
-  margin-left: 40px;
+  margin-left: 50px;
   color: #3374A0;
 }
 
@@ -304,4 +304,43 @@ a{
 @keyframes blink-caret {
   from, to { border-color: transparent;}
   50% { border-color: orange}
+}
+
+#ep1{
+  margin-left: 350px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+#ep2{
+  margin-left: 40px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+#ep3{
+  margin-left: 100px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+#ep4{
+  margin-left: 80px;
+  opacity: 75%;
+  border-radius: 10px;
+}
+
+#titEpi{
+  text-align: left;
+  font-family: 'Tourney';
+  font-size: 25px;
+  margin-left: 450px;
+  color: #3374A0;
+}
+
+#otrEpi{
+  text-align: center;
+  font-family: 'Tourney';
+  font-size: 30px;
+  color: #3374A0;
 }

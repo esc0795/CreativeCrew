@@ -24,6 +24,10 @@ class control{
       $this->obj_creativeCrew->setDisplay("header.tpl");
     }
 
+    public function displayPodcast(){
+      $this->obj_creativeCrew->setDisplay("podcast.tpl");
+    }
+
     public function gestor_solicitudes(){}
     public function validar_inactividad(){}
 }
