@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 08:31:24
+/* Smarty version 4.3.0, created on 2023-03-15 08:37:02
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\podcast.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6411744c1bf1e1_79670520',
+  'unifunc' => 'content_6411759ee510b3_78984943',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '728c092896155f3185e2f0d29be0966e46893136' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\podcast.tpl',
-      1 => 1678865482,
+      1 => 1678865821,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6411744c1bf1e1_79670520 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6411759ee510b3_78984943 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -42,6 +42,7 @@ function content_6411744c1bf1e1_79670520 (Smarty_Internal_Template $_smarty_tpl)
   <iframe id="ep1" width="750" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1346391478%3Fsecret_token%3Ds-s7Hz0qhOK4V&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
   <p>&nbsp;</p>
   <strong><p id="otrEpi">&gt;&nbsp;Otros Episodios_</p></strong>
+  <p>&nbsp;</p>
   <iframe id="ep2" width="350" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1316223529%3Fsecret_token%3Ds-PpaaKYttBas&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
   <iframe id="ep3" width="350" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1291341520%3Fsecret_token%3Ds-lYb1TOdbP3l&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
   <iframe id="ep4" width="350" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1346391478%3Fsecret_token%3Ds-s7Hz0qhOK4V&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>

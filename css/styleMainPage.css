@@ -247,7 +247,7 @@ table{
 
 .video{
   border-style: none;
-  margin-left: 225px;
+  margin-left: 350px;
   margin-top: 150px;
   opacity: 85%;
 }
@@ -333,7 +333,7 @@ a{
 #titEpi{
   text-align: left;
   font-family: 'Tourney';
-  font-size: 30px;
+  font-size: 25px;
   margin-left: 450px;
   color: #3374A0;
 }
