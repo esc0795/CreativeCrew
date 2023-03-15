@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 06:17:07
+/* Smarty version 4.3.0, created on 2023-03-15 06:43:42
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_641154d3e10c44_98900637',
+  'unifunc' => 'content_64115b0e60afb6_08832397',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1678857426,
+      1 => 1678859020,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_641154d3e10c44_98900637 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64115b0e60afb6_08832397 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -66,7 +66,8 @@ function content_641154d3e10c44_98900637 (Smarty_Internal_Template $_smarty_tpl)
   <div class="propTxt">
     <hr>
     <br>
-    <strong><p id="frase3" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
+    <br>
     <form>
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>

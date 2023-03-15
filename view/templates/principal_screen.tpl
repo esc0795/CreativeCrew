@@ -43,7 +43,8 @@
   <div class="propTxt">
     <hr>
     <br>
-    <strong><p id="frase3" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
+    <br>
     <form>
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>
