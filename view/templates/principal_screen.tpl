@@ -14,7 +14,7 @@
 <body>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-    <strong><p id="frase1">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
     <p>&nbsp;</p>
   <div class="w3-content w3-section" style="width:425px; height:200px">
     <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:230%">
@@ -43,7 +43,7 @@
   <div class="propTxt">
     <hr>
     <br>
-    <strong><p id="frase3">&gt;&nbsp;Proponer un tema_</p></strong>
+    <strong><p id="frase3" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
     <form>
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>
