@@ -14,8 +14,8 @@
 </head>
 <body>
   <ul class="active">
-    <li><a href="">Tech Crew</a></li>
-    <li><a href="">Podcast</a></li>
+    <li><a href="index.php">Tech Crew</a></li>
+    <li><a href="podcast.php">Podcast</a></li>
     <li><a href="">Contact</a></li>
   </ul>
   <br>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 06:43:42
+/* Smarty version 4.3.0, created on 2023-03-15 08:08:14
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64115b0e60afb6_08832397',
+  'unifunc' => 'content_64116ededffbd6_27377234',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1678859020,
+      1 => 1678864093,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64115b0e60afb6_08832397 (Smarty_Internal_Template $_smarty_tpl) {
+function content_64116ededffbd6_27377234 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -37,7 +37,7 @@ function content_64115b0e60afb6_08832397 (Smarty_Internal_Template $_smarty_tpl)
 <body>
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo Web & Tech Podcast_</p></strong>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Desarrollo web and Tech Podcast_</p></strong>
     <p>&nbsp;</p>
   <div class="w3-content w3-section" style="width:425px; height:200px">
     <img class="mySlides" src="https://static.wixstatic.com/media/669128_ec1c7a78e9694aec8a07c2e48b292ae1~mv2.gif" alt="" style="width:150%; height:230%">
@@ -82,6 +82,8 @@ function content_64115b0e60afb6_08832397 (Smarty_Internal_Template $_smarty_tpl)
   </div>
   <div class="video">
     <hr>
+    <br>
+    <strong><p id="frase1" class="maquina-escribir">&gt;&nbsp;Comunidad_</p></strong>
     <br>
     <iframe id="video1" width="900" height="550"
       src="https://www.youtube.com/embed/M3DO5Zfk4NI">
