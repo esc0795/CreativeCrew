@@ -46,7 +46,7 @@
     <br>
     <strong><p style="margin-left: 450px" id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
     <br>
-    <form>
+    <form method="post" action="model/model.php">
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>
         <input type="email" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
@@ -55,7 +55,7 @@
         <br>
         <textarea id="inputTa" name="txtTema" rows="4" cols="50" style="width: 500px"></textarea>
         <br>
-        <strong><button id="btnProp" type="button" onclick="alert('Informacion Ingresada!')">&gt;&nbsp;Enviar_</button></strong>
+        <strong><input type="submit" id="btnProp" name="" value="Enviar"></strong>
     </form>
   </div>
   <div class="video">

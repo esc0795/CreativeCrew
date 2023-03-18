@@ -1,18 +1,29 @@
 <?php
-require_once "db/db_connection.php";
+require_once "C:/xampp/htdocs/CreativeCrew/db/db_connection.php";
 
 class model {
 
-  private $ins_conexion;
+  private $config;
 
   public function __construct() {
-    $this->ins_conexion=new conn();
+    $this->config = new conn();
   }
 
-  public function getNewTopic() {
 
+  public function _getTopic(){
+    //Datos enviados en el formulario
+    $email = $_POST['email'];
+    $tema = $_POST['txtTema'];
+
+
+
+    //Query para hacer el Insert.
+    $sql = "INSERT INTO propuesta_tema (tema, usuario) VALUES ('$tema', '$email')";
+
+    echo "Email" . $email;
+
+    $this->config->ejecutar($sql);
   }
-
 }
 
 ?>

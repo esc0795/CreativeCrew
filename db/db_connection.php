@@ -36,7 +36,7 @@ class conn{
     $rs = $this->link->query($sql);
 
     return $rs;
-
+    
   }
 }
 ?>
