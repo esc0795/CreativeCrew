@@ -25,16 +25,23 @@ class conn{
       echo "error de depuración: " . mysqli_connect_error() . PHP_EOL;
       exit;
     }
-  //  return $this->link;
+
+    return $this->link;
 
   }
+
+  public function desconectar($link){
+    $this->link->close();
+
+  }
+
   public function ejecutar($sql){
 
     $this->conectar();
 
     $rs = $this->link->query($sql);
 
-    $rs->close();
+    $this->desconectar($link);
 
     return $rs;
 

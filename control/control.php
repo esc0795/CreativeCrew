@@ -54,10 +54,6 @@ class control{
       $obj_prop->set_usuario($_POST['email']);
 
       $req = $this->objModel->_getTopic($obj_prop);
-
-      if ($req->get_tema()!=null) {
-        echo "La informacion fue ingresada";
-      }
     }
 
     public function validar_inactividad(){}
