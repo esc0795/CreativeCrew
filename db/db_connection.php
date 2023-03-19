@@ -34,6 +34,8 @@ class conn{
 
     $rs = $this->link->query($sql);
 
+    $rs->close();
+
     return $rs;
 
   }

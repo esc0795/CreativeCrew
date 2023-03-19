@@ -56,7 +56,7 @@
         <br>
         <textarea id="inputTa" name="txtTema" rows="4" cols="50" style="width: 500px"></textarea>
         <br>
-        <strong><input type="submit" id="btnProp" name="" value="Enviar"></strong>
+        <strong><input type="submit" id="btnProp" onclick="alert('Informacion Ingresada')" name="" value="Enviar"></strong>
     </form>
   </div>
   <div class="video">

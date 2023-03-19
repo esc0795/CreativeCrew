@@ -1,35 +1,38 @@
 <?php
 
 require_once "libs/smarty_4_3_0/config_smarty.php";
+require_once "model/model.php";
+require_once "model/model_propuesta_tema.php";
 
 class control{
-    private $obj_creativeCrew;
+    private $obj_smarty;
     private $nombreApp;
+    private $objModel;
 
     public function __construct(){
-      $this->nombreApp = "Ratones Coloraos";
-      $this->obj_creativeCrew = new config_smarty();
-      $this->objModel  = null;
+      $this->nombreApp = "Tech Crew";
+      $this->obj_smarty = new config_smarty();
+      $this->objModel  = new model;
     }
 
     public function principalScreen() {
-      $this->obj_creativeCrew->setDisplay("principal_screen.tpl");
+      $this->obj_smarty->setDisplay("principal_screen.tpl");
     }
 
     public function displayFooter() {
-      $this->obj_creativeCrew->setDisplay("footer.tpl");
+      $this->obj_smarty->setDisplay("footer.tpl");
     }
 
     public function displayHeader() {
-      $this->obj_creativeCrew->setDisplay("header.tpl");
+      $this->obj_smarty->setDisplay("header.tpl");
     }
 
     public function displayPodcast(){
-      $this->obj_creativeCrew->setDisplay("podcast.tpl");
+      $this->obj_smarty->setDisplay("podcast.tpl");
     }
 
     public function displayContact(){
-      $this->obj_creativeCrew->setDisplay("contact.tpl");
+      $this->obj_smarty->setDisplay("contact.tpl");
     }
 
     public function gestor_solicitudes(){
@@ -38,7 +41,7 @@ class control{
 
         switch($accion) {
           case 'ingresar_propuesta':
-              //$this->// TODO: ingresar metodo de ingreso a BD
+              $this->ctl_ingresar_propuesta();
             break;
         }
       }
@@ -47,8 +50,8 @@ class control{
 
     public function ctl_ingresar_propuesta(){
       $obj_prop = new model_propuesta_tema();
-      $obj_prop->set_tema($_REQUEST['txtTema']);
-      $obj_prop->set_usuario($_REQUEST['email']);
+      $obj_prop->set_tema($_POST['txtTema']);
+      $obj_prop->set_usuario($_POST['email']);
 
       $req = $this->objModel->_getTopic($obj_prop);
 
