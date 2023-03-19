@@ -32,7 +32,31 @@ class control{
       $this->obj_creativeCrew->setDisplay("contact.tpl");
     }
 
-    public function gestor_solicitudes(){}
+    public function gestor_solicitudes(){
+      if (isset($_REQUEST['accion'])) {
+        $accion = $_REQUEST['accion'];
+
+        switch($accion) {
+          case 'ingresar_propuesta':
+              //$this->// TODO: ingresar metodo de ingreso a BD
+            break;
+        }
+      }
+
+    }
+
+    public function ctl_ingresar_propuesta(){
+      $obj_prop = new model_propuesta_tema();
+      $obj_prop->set_tema($_REQUEST['txtTema']);
+      $obj_prop->set_usuario($_REQUEST['email']);
+
+      $req = $this->objModel->_getTopic($obj_prop);
+
+      if ($req->get_tema()!=null) {
+        echo "La informacion fue ingresada";
+      }
+    }
+
     public function validar_inactividad(){}
 }
 ?>

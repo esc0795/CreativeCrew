@@ -46,10 +46,11 @@
     <br>
     <strong><p style="margin-left: 450px" id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
     <br>
-    <form method="post" action="model/model.php">
+    <form method="post" action="index.php">
+        <input type="hidden"  name="accion" value="ingresar_propuesta">
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>
-        <input type="email" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
+        <input type="text" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
         <p>&nbsp;</p>
         <strong><label id="labProp" for="tema">Tema:</label><br></strong>
         <br>
