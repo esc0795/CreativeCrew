@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-15 09:17:39
+/* Smarty version 4.3.0, created on 2023-03-19 23:12:38
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\principal_screen.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_64117f230824b0_21796613',
+  'unifunc' => 'content_641788d6269288_48601839',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4146080fc39f9fd036f844d33b6d909bcd9738b9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\principal_screen.tpl',
-      1 => 1678868258,
+      1 => 1679263949,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_64117f230824b0_21796613 (Smarty_Internal_Template $_smarty_tpl) {
+function content_641788d6269288_48601839 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -69,16 +69,17 @@ function content_64117f230824b0_21796613 (Smarty_Internal_Template $_smarty_tpl)
     <br>
     <strong><p style="margin-left: 450px" id="frase1" class="maquina-escribir">&gt;&nbsp;Proponer un tema_</p></strong>
     <br>
-    <form>
+    <form method="post" action="index.php">
+        <input type="hidden"  name="accion" value="ingresar_propuesta">
         <strong><label id="labProp" for="email">Email:</label><br></strong>
         <br>
-        <input type="email" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
+        <input type="text" id="inputEm" name="email" style="width: 500px; height: 40px"><br>
         <p>&nbsp;</p>
         <strong><label id="labProp" for="tema">Tema:</label><br></strong>
         <br>
         <textarea id="inputTa" name="txtTema" rows="4" cols="50" style="width: 500px"></textarea>
         <br>
-        <strong><button id="btnProp" type="button" onclick="alert('Informacion Ingresada!')">&gt;&nbsp;Enviar_</button></strong>
+        <strong><input type="submit" id="btnProp" name="" value="Enviar"></strong>
     </form>
   </div>
   <div class="video">
