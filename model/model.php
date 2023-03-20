@@ -20,6 +20,19 @@ class model {
 
     return $obj_prop;
   }
+
+  public function _getContacto($obj_cont){
+    $nombre = $obj_cont->get_nombre();
+    $apellido = $obj_cont->get_apellido();
+    $email = $obj_cont->get_email();
+    $asunto = $obj_cont->get_asunto();
+
+    //Query para hacer el Insert
+    $sql = "INSERT INTO contacto(nombre, apellido, email, asunto) VALUES ('$nombre', '$apellido', '$email', '$asunto')";
+    $this->config->ejecutar($sql);
+
+    return $obj_cont;
+  }
 }
 
 ?>

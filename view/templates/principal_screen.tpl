@@ -54,7 +54,7 @@
         <p>&nbsp;</p>
         <strong><label id="labProp" for="tema">Tema:</label><br></strong>
         <br>
-        <textarea id="inputTa" name="txtTema" rows="4" cols="50" style="width: 500px"></textarea>
+        <textarea id="inputTa" name="txtTema" rows="4" cols="70" style="width: 500px"></textarea>
         <br>
         <strong><input type="submit" id="btnProp" onclick="alert('Informacion Ingresada')" name="" value="Enviar"></strong>
     </form>
