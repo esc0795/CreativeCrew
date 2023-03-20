@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-20 01:49:04
+/* Smarty version 4.3.0, created on 2023-03-20 05:04:28
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6417ad80e20851_25381763',
+  'unifunc' => 'content_6417db4cbc90d5_31063851',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '048c3c22b2d9f1b9d38d763a1a94d68b817e7bc5' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\header.tpl',
-      1 => 1679273341,
+      1 => 1679285066,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6417ad80e20851_25381763 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6417db4cbc90d5_31063851 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <!DOCTYPE html>
 <html>
@@ -44,7 +44,7 @@ function content_6417ad80e20851_25381763 (Smarty_Internal_Template $_smarty_tpl)
   <br>
   <br>
   <div class="header">
-    <img class="" src="graphics/TC.png" alt="">
+    <img style="width:150px; height:150px;" class="" src="graphics/TC.png" alt="">
   </div>
 <?php echo '<script'; ?>
  src="js/jsMainPage.js"><?php echo '</script'; ?>
