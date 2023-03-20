@@ -25,7 +25,7 @@
       <input style="font-family: calibri" type="text" id="lname" name="txtApellido" placeholder="">
 
       <strong><label for="email">Email:</label></strong>
-      <input style="font-family: calibri" type="text" id="email" name="txtEmail" placeholder="">
+      <input style="font-family: calibri" type="email" id="email" name="txtEmail" placeholder="">
 
       <strong><label for="subject">Asunto:</label></strong>
       <textarea style="font-family: calibri" id="subject" name="txtAsunto" placeholder="Escribe algo.." style="height:300px"></textarea>
