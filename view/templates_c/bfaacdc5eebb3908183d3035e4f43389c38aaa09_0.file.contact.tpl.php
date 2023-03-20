@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.0, created on 2023-03-20 04:28:53
+/* Smarty version 4.3.0, created on 2023-03-20 05:27:54
   from 'C:\xampp\htdocs\CreativeCrew\view\templates\contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.0',
-  'unifunc' => 'content_6417d2f5ab9103_81249362',
+  'unifunc' => 'content_6417e0ca074bc5_09640382',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'bfaacdc5eebb3908183d3035e4f43389c38aaa09' => 
     array (
       0 => 'C:\\xampp\\htdocs\\CreativeCrew\\view\\templates\\contact.tpl',
-      1 => 1679282924,
+      1 => 1679286433,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6417d2f5ab9103_81249362 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6417e0ca074bc5_09640382 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -48,7 +48,7 @@ function content_6417d2f5ab9103_81249362 (Smarty_Internal_Template $_smarty_tpl)
       <input style="font-family: calibri" type="text" id="lname" name="txtApellido" placeholder="">
 
       <strong><label for="email">Email:</label></strong>
-      <input style="font-family: calibri" type="text" id="email" name="txtEmail" placeholder="">
+      <input style="font-family: calibri" type="email" id="email" name="txtEmail" placeholder="">
 
       <strong><label for="subject">Asunto:</label></strong>
       <textarea style="font-family: calibri" id="subject" name="txtAsunto" placeholder="Escribe algo.." style="height:300px"></textarea>
