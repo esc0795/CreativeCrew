@@ -21,7 +21,7 @@
   <br>
   <br>
   <div class="header">
-    <img class="" src="graphics/TC.png" alt="">
+    <img style="width:150px; height:150px;" class="" src="graphics/TC.png" alt="">
   </div>
 <script src="js/jsMainPage.js"></script>
 </body>
