@@ -6,5 +6,5 @@ $objControl = new control();// instanciacion( instancia=objControl, new crea obj
 $objControl->displayHeader();
 $objControl->displayContact();
 $objControl->displayFooter();
-
+$objControl->gestor_solicitudes();
 ?>

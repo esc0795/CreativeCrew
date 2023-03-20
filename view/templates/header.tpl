@@ -16,7 +16,7 @@
   <ul class="active">
     <li><a href="index.php">Tech Crew</a></li>
     <li><a href="podcast.php">Podcast</a></li>
-    <li><a href="contact.php">Contact</a></li>
+    <li><a href="contact.php">Contacto</a></li>
   </ul>
   <br>
   <br>
